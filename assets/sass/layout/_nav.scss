@@ -1,0 +1,13 @@
+.navbar{
+    background-color: $eerie-black;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+
+   &__nombres-color{
+       color: $ruddy-pink;
+   } 
+}
+
+
+

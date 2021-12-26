@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC:ital,wght@1,900&family=Roboto:ital,wght@0,400;1,300&display=swap");
+.navbar {
+  background-color: #121619;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+.navbar__nombres-color {
+  color: #D76C69;
+}
+
+/* HERO-SECTION */
+.header {
+  background-image: url("../img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.header__div {
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.header__h1 {
+  font-family: "Playfair Display SC";
+  font-size: 70px;
+}
+
+.section {
+  font-family: "Roboto";
+  color: #6C6E70;
+  line-height: 40px;
+}
+.section__buttons {
+  border-radius: 50%;
+}
+
+.article {
+  background-color: #fff;
+}
+.article__h3 {
+  font-family: "Playfair Display SC";
+}
+.article__h3-link {
+  font-family: "Roboto";
+  color: #D76C69;
+}
+.article__texto {
+  font-family: "Roboto";
+  color: #6C6E70;
+  line-height: 40px;
+}
+
+.paginas {
+  background-color: #D1D1D1;
+}
+
+.footer {
+  background-color: #121619;
+}
+.footer img {
+  width: 100px;
+}
+
+/*# sourceMappingURL=main.css.map */

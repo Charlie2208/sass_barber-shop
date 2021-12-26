@@ -1,0 +1,20 @@
+.article{
+    background-color: $white;
+
+   
+
+    &__h3{
+        font-family: 'Playfair Display SC';
+    }
+
+    &__h3-link{
+        font-family: 'Roboto';
+        color: $ruddy-pink;
+    }
+
+    &__texto{
+        font-family: 'Roboto';
+        color: $nickel;
+        line-height: 40px;
+    }
+}

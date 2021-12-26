@@ -1,0 +1,30 @@
+/* HERO-SECTION */
+
+.header{
+    
+    background-image: url("../img/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+
+    &__div{
+        
+            position: absolute;
+            bottom: 200px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        
+        
+    
+    }
+   
+    
+    &__h1{
+        font-family: 'Playfair Display SC';
+        font-size: $xx-large;
+
+    }
+}
